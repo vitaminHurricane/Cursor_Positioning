@@ -419,10 +419,6 @@
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
-   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
@@ -430,6 +426,10 @@
   ('stringprep',
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('platform',
    'C:\\Users\\Vitamin '
@@ -627,57 +627,57 @@
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_ctypes.pyd',
    'EXTENSION'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Users\\Vitamin '
@@ -699,57 +699,21 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-string-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -759,74 +723,126 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
    'D:\\VS_code_project\\Python\\script\\click_for_position\\build\\main\\base_library.zip',
    'DATA')],
- [('heapq',
+ [('stat',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
    'PYMODULE'),
-  ('posixpath',
+  ('operator',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
    'PYMODULE'),
-  ('copyreg',
+  ('ntpath',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
    'PYMODULE'),
   ('keyword',
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
    'PYMODULE'),
-  ('warnings',
+  ('locale',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
    'PYMODULE'),
-  ('enum',
+  ('codecs',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\Vitamin '
@@ -848,85 +864,21 @@
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('weakref',
+  ('reprlib',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
-   'PYMODULE'),
-  ('abc',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
    'PYMODULE'),
   ('types',
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
    'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
-   'PYMODULE'),
   ('_collections_abc',
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
    'PYMODULE'),
-  ('ntpath',
+  ('posixpath',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('collections.abc',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\abc.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
-   'PYMODULE'),
-  ('operator',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
-   'PYMODULE'),
-  ('functools',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('locale',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
-   'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Vitamin '
@@ -1416,9 +1368,57 @@
    'C:\\Users\\Vitamin '
    'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('_weakrefset',
+  ('enum',
    'C:\\Users\\Vitamin '
-   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('collections.abc',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\abc.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\Vitamin '
+   'C\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\Vitamin '

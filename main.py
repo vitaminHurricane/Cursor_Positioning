@@ -10,14 +10,14 @@ def esc_monitor(key):
         return False
 
 def click_point(x, y, button, press):
-    if button == mouse.Button.left and press == True:
+    if button == mouse.Button.middle and press == True:
         print('x:{:d} y:{:d}'.format(x, y))
 
 def click_range(x, y, button, press):
-    if button == mouse.Button.left and press == True:
+    if button == mouse.Button.middle and press == True:
         global x1, y1
         x1, y1 = x, y
-    elif button == mouse.Button.left and press == False:
+    elif button == mouse.Button.middle and press == False:
         global x2, y2, range_flag
         x2, y2 = x, y
         range_flag = True
@@ -35,7 +35,7 @@ def show_info():
     print('按[3]结束任务')
 
 def position_getpoint():
-    print('点击鼠标左键来获取位置, 按下esc退出该模式')
+    print('点击鼠标中键来获取位置, 按下esc退出该模式')
     m_listener = mouse.Listener(on_click = click_point)
     k_listener = keyboard.Listener(on_press = esc_monitor)
     m_listener.start()
@@ -48,7 +48,7 @@ def position_getpoint():
 
 def position_getrange():
     global range_flag
-    print('按下鼠标左键确定开始位置, 释放鼠标左键确定结束位置, 按下esc退出该模式')
+    print('按下鼠标中键确定开始位置, 释放鼠标中键确定结束位置, 按下esc退出该模式')
     m_listener = mouse.Listener(on_click = click_range)
     k_listener = keyboard.Listener(on_press = esc_monitor)
     m_listener.start()
